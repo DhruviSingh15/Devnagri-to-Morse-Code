@@ -1,34 +1,79 @@
-# Devnagri-to-Morse-Code
-A web-based tool to convert Devanagari script (Hindi, Marathi, Sanskrit) into Morse Code with instant output and audio playback. Built using Flask, HTML, Tailwind CSS, and JavaScript, it supports all major Devanagari characters. Ideal for learning, encoding, and creative communication in the universal dots and dashes of Morse.
+# 🔤 Devanagari to Morse Code Converter
 
-#🚀 Features
+A web-based application that converts **Devanagari script** (Hindi, Marathi, Sanskrit) into **Morse Code** with **instant visual output and audio playback**.  
+Built to bridge Indian scripts with the universal language of dots and dashes.
 
-Supports all major Devanagari characters.
+---
 
-Instant conversion via Flask backend.
+## 🚀 Features
 
-Clean, responsive HTML + Tailwind CSS UI.
+- ✅ Supports all major **Devanagari characters**
+- ⚡ Instant conversion using **Flask backend**
+- 🎨 Clean, responsive UI with **HTML & Tailwind CSS**
+- 🧠 Interactive frontend using **JavaScript**
+- 🔊 **Audio playback** of generated Morse Code
+- 🌐 Works directly in the browser
 
-Interactive JavaScript frontend.
+---
 
-Audio playback of generated Morse Code.
+## 🛠 Tech Stack
 
-#🛠 Tech Stack
+- **Frontend:** HTML, Tailwind CSS, JavaScript  
+- **Backend:** Python (Flask)  
 
-HTML, Tailwind CSS, JavaScript, Python (Flask).
+---
 
-#📌 How It Works
+## 📌 How It Works
 
-Enter Devanagari text.
+1. User enters text in **Devanagari script**
+2. Flask backend maps characters to Morse Code
+3. Morse output is displayed instantly
+4. User can play the Morse code as audio
 
-Backend maps characters to Morse Code.
+---
 
-Output appears instantly, with playback option.
+## 📁 Project Structure
+```
+Devnagri-to-Morse-Code/
+├── public/
+│ └── assets/
+│ └── videos/ # Media assets
+├── templates/ # HTML templates
+├── app.py # Flask application
+├── README.md # Documentation
+├── LICENSE # MIT License
+└── .gitignore
+```
 
-#🎯 Future Scope
+---
 
-Reverse conversion (Morse → Devanagari).
+## ▶️ How to Run Locally
 
-Mobile/PWA support.
+### Install dependencies
+```bash
+pip install flask
+```
 
-This Project Brings Indian scripts to life in the universal language of dots and dashes.
+### Run the application
+```bash
+python app.py
+```
+### Open your browser and go to:
+```bash
+http://localhost:5000
+```
+
+## 🎯 Use Cases
+1. Learning Morse Code
+2. Educational demonstrations
+3. Language & encoding experiments
+4. Creative communication projects
+
+## 🔮 Future Scope
+- 🔁 Reverse conversion (Morse → Devanagari)
+- 📱 Mobile-friendly PWA version
+- 🌍 Support for additional Indian scripts
+- 📂 Downloadable Morse audio files
+
+## 📄 License
+This project is licensed under the MIT License.
